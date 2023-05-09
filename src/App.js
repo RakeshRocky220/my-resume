@@ -157,7 +157,7 @@ function App() {
 <div className='row d-flex flex-wrap justify-content-center align-items-center'>
   <div className='col-md-auto text-center mb-3'>
     <h5 className='font text-bold text-dark'><b>StudentManagementSystem-FrontEnd</b></h5>
-    <button className='btn btn-danger'>View Site</button>
+    <a href='https://rakeshrocky220.github.io/student-frontend/'><button className='btn btn-danger'>View Site</button></a>
   </div>
   <div className='col-md-auto'>
     
@@ -203,7 +203,7 @@ with this I have used bootstrap and jQuery to increase the efficiency in the use
 <div className='row d-flex flex-wrap justify-content-center align-items-center'>
   <div className='col-md-auto text-center mb-3'>
     <h5 className='font text-bold text-dark'><b>StudentManagementSystem-Backend</b></h5>
-    <button className='btn btn-primary'>View Site</button>
+    <a href='https://github.com/RakeshRocky220/student-backend-restapi'><button className='btn btn-primary'>View Code</button></a>
   </div>
   
   
@@ -253,7 +253,7 @@ organization (School)
 <div className='row d-flex flex-wrap justify-content-center align-items-center'>
   <div className='col-md-auto text-center mb-3'>
     <h5 className='font text-bold text-dark'><b>BankingManagementSystem</b></h5>
-    <button className='btn btn-warning'>View Site</button>
+    <a href='https://github.com/RakeshRocky220/bankingmanagementsystem'><button className='btn btn-warning'>View Code</button></a>
   </div>
   
   
