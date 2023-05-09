@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Nunito&display=swap');
+
+.font{
+  font-family: 'Nunito';
+}
+
+.btn-git {
+  background-color:rgb(255, 70, 131);
+  border-color: black;
+  color: #fff;
+}
+.col-md-auto{
+  transition: 1.5s;
+  padding: 4px;
+}
+.col-md-auto:hover{
+  background-color:white;
+  border-radius: 10px;
+ 
+ 
+  transform: scale(1.1);
+}
+.gradient-text {
+  background: linear-gradient(to right, #000000, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.gradient-text1{
+  background: linear-gradient( #000000, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
