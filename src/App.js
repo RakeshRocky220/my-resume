@@ -74,19 +74,19 @@ function App() {
    <h4 style={{fontWeight:`bolder`}} className='mx-2 text-dark gradient-text font' ><span className='gradient-text'>Programming Launguages</span></h4>
   
    <div className='row d-flex flex-wrap  p-3'>
-  <div className='col-6 col-md-auto text-center'>
+  <div className='col-6 col-md-auto tri text-center'>
     <img src='https://img.icons8.com/?size=512&id=20909&format=png' style={{height:`100px`,width:`100px`}} />
     <p className='text-dark'>HTML5</p>
   </div>
-  <div className='col-6 col-md-auto text-center'>
+  <div className='col-6 col-md-auto tri text-center'>
     <img src='https://img.icons8.com/?size=512&id=7gdY5qNXaKC0&format=png' style={{height:`100px`,width:`100px`}} />
     <p className='text-dark'>CSS3</p>
   </div>
-  <div className='col-6 col-md-auto text-center'>
+  <div className='col-6 col-md-auto tri text-center'>
     <img src='https://img.icons8.com/?size=512&id=108784&format=png' style={{height:`100px`,width:`100px`}} />
     <p className='text-dark'>Java Script</p>
   </div>
-  <div className='col-6 col-md-auto text-center'>
+  <div className='col-6 col-md-auto tri text-center'>
     <img src='https://img.icons8.com/?size=512&id=13679&format=png' style={{height:`100px`,width:`100px`}} />
     <p className='text-dark'>Java</p>
   </div>
@@ -96,19 +96,19 @@ function App() {
    <h4 style={{fontWeight:`bolder`}} className='mx-2 text-dark font' ><span className='gradient-text'>Libraries/Frameworks</span></h4>
 
    <div className='row d-flex flex-wrap p-3'>
-        <div className='col-md-auto col-6 text-center p-1'>
+        <div className='col-md-auto tri col-6 text-center p-1'>
             <img className='mx-2' src='https://img.icons8.com/?size=512&id=Nlsua06Gvxel&format=png' style={{height:`100px`,width:`100px`}}></img>
             <p className='text-center text-dark' >React</p>
         </div>
-        <div className='col-md-auto col-6 text-center'>
+        <div className='col-md-auto tri col-6 text-center'>
             <img  src='https://img.icons8.com/?size=512&id=90519&format=png' style={{height:`100px`,width:`100px`}}></img>
             <p className='text-center text-dark' >Spring Boot</p>
         </div>
-        <div className='col-md-auto col-6 text-center'>
+        <div className='col-md-auto tri col-6 text-center'>
             <img  src='https://dwglogo.com/wp-content/uploads/2017/12/1100px_Hibernate_logo_01.png' style={{height:`100px`,width:`100px`}}></img>
             <p className='text-center text-dark' >Hibernate</p>
         </div>
-        <div className='col-md-auto col-6 text-center'>
+        <div className='col-md-auto tri col-6 text-center'>
             <img src='https://img.icons8.com/?size=512&id=84710&format=png' style={{height:`100px`,width:`100px`}}></img>
             <p className='text-center text-dark' >Bootstrap</p>
         </div>
@@ -117,17 +117,21 @@ function App() {
 
    <h4 style={{fontWeight:`bolder`}} className='mx-2 text-dark font' ><span className='gradient-text'>Tools</span></h4>
     <div className='row d-flex flex-wrap p-3'>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img  src='https://img.icons8.com/?size=512&id=AZOZNnY73haj&format=png' style={{height:`100px`,width:`100px`}}></img>
         <p className='text-center text-dark'>GitHub</p>
       </div>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img src='https://rdi.bright-research.com/wp-content/uploads/2020/10/postman.png' style={{height:`100px`,width:`100px`}}></img>
         <p className='text-center text-dark'>PostMan</p>
       </div>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img src='https://img.icons8.com/?size=512&id=20906&format=png' style={{height:`100px`,width:`100px`}}></img>
         <p className='text-center text-dark'>Git</p>
+      </div>
+      <div className='col-md-auto tri col-6 text-center'>
+        <img src='https://sucessoft.com/gallery/apache-tomcat.png' style={{height:`100px`,width:`100px`}}></img>
+        <p className='text-center text-dark'>Tomcat</p>
       </div>
     </div>
 
@@ -135,19 +139,163 @@ function App() {
     
    <h4 style={{fontWeight:`bolder`}} className='mx-2 text-dark font' ><span className='gradient-text'>IDE's</span></h4>
     <div className='row d-flex flex-wrap m-3'>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img  className='mx-2' src='https://logodix.com/logo/732150.png' style={{height:`85px`,width:`85px`}}></img>
         <p className='text-center text-dark'>Eclipse</p>
       </div>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img className='mx-2' src='https://1.bp.blogspot.com/-QsZYakuFeZc/YOu85v4QZCI/AAAAAAAAL4o/swwm0PB0uW8Y2-SEYLi--s8byFieqcshACNcBGAsYHQ/w400-h400/spring.webp' style={{height:`85px`,width:`85px`}}></img>
         <p className='text-center text-dark'>STS</p>
       </div>
-      <div className='col-md-auto col-6 text-center'>
+      <div className='col-md-auto tri col-6 text-center'>
         <img  className='mx-2'src='https://img.icons8.com/?size=512&id=y7WGoWNuIWac&format=png' style={{height:`85px`,width:`85px`}}></img>
         <p className='text-center text-dark'>VsCode</p>
       </div>
     </div>
+    <h1 style={{fontWeight:`bolder`}} className='mx-2 text-dark font' ><span className="gradient-text">Projects</span></h1>
+<hr className='text-dark'></hr>
+<div className='row d-flex flex-wrap justify-content-center align-items-center'>
+  <div className='col-md-auto text-center mb-3'>
+    <h5 className='font text-bold text-dark'><b>StudentManagementSystem-FrontEnd</b></h5>
+    <button className='btn btn-danger'>View Site</button>
+  </div>
+  <div className='col-md-auto'>
+    
+  </div>
+  
+</div>
+<div className='row d-flex justify-content-center mb-3'>
+  <div className='col-md-auto'>
+    <div className='container '>
+    <h6>Description:</h6>
+    <hr></hr>
+    <p>This website is deployed on github pages check here : https://rakeshrocky220.github.io/student-frontend/
+ It is a web application developed by ReactJS designed to manage student information, including their
+personal details, academic records, and attendance.
+ The application would have different modules or sections for different users, such as students, teacher along
+with this I have used bootstrap and jQuery to increase the efficiency in the user interaction</p>
+<b className='font'>Technologies Used:</b>
+<div className='d-flex'>
+  <div className='flex-item'>
+    <img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=Nlsua06Gvxel&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=20909&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=108784&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=AZOZNnY73haj&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=84710&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=y7WGoWNuIWac&format=png'></img>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+
+<div className='row d-flex flex-wrap justify-content-center align-items-center'>
+  <div className='col-md-auto text-center mb-3'>
+    <h5 className='font text-bold text-dark'><b>StudentManagementSystem-Backend</b></h5>
+    <button className='btn btn-primary'>View Site</button>
+  </div>
+  
+  
+</div>
+<div className='row d-flex justify-content-center mb-3'>
+  <div className='col-md-auto'>
+    <div className='container '>
+    <h6>Description:</h6>
+    <hr></hr>
+    <p>
+      This application is developed by using Spring Boot framework. In this I have developed an Rest Api to
+manage the various services like Attendance, Top Rankers, Login etc. along with the crud operation of
+student Objects.
+ An External Api is used in this application named twilio which is used to send SMS to verify numbers
+(Parent`s mobile number). Finally, this application will manage the various services in the business
+organization (School)
+</p>
+<b className='font'>Technologies Used:</b>
+<div className='d-flex justify'>
+  <div className='flex-item'>
+    <img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=90519&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=13679&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://rdi.bright-research.com/wp-content/uploads/2020/10/postman.png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=20906&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://logodix.com/logo/732150.png'></img>
+  </div>
+  <div className='flex-item'>
+  <img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='  https://img.icons8.com/?size=512&id=AZOZNnY73haj&format=png'></img>
+ 
+
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+<div className='row d-flex flex-wrap justify-content-center align-items-center'>
+  <div className='col-md-auto text-center mb-3'>
+    <h5 className='font text-bold text-dark'><b>BankingManagementSystem</b></h5>
+    <button className='btn btn-warning'>View Site</button>
+  </div>
+  
+  
+</div>
+<div className='row d-flex justify-content-center mb-3'>
+  <div className='col-md-auto'>
+    <div className='container '>
+    <h6>Description:</h6>
+    <hr></hr>
+    <p>
+    This Application is used reduce the manual e ort and making automating the some of the services in the
+banking sector like depositing the money and withdrawing the money and also transferring the money and
+view your money. I have used JSP and Servlets at backend to develop this application. The data is persisted
+in MySQL database
+</p>
+<b className='font'>Technologies Used:</b>
+<div className='d-flex'>
+  <div className='flex-item'>
+    <img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://sucessoft.com/gallery/apache-tomcat.png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=20909&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=7gdY5qNXaKC0&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=108784&format=png'></img>
+  </div>
+  <div className='flex-item'>
+<img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='https://img.icons8.com/?size=512&id=13679&format=png'></img>
+  </div>
+  <div className='flex-item'>
+  <img style={{height:`30px`,width:`30px`,borderRadius:`50px`}} src='  https://logodix.com/logo/732150.png'></img>
+ 
+
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
     </div>
    </>
   );

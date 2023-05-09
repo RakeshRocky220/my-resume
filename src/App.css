@@ -9,11 +9,11 @@
   border-color: black;
   color: #fff;
 }
-.col-md-auto{
+.col-md-auto.tri{
   transition: 1.5s;
   padding: 4px;
 }
-.col-md-auto:hover{
+.col-md-auto.tri:hover{
   background-color:white;
   border-radius: 10px;
  
@@ -31,4 +31,8 @@
   background: linear-gradient( #000000, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.flex-item:hover{
+  margin-top: 3px;
 }
